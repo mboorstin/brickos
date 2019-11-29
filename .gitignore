@@ -3,3 +3,30 @@ build/*
 
 # Ignore editor files
 *.swp
+*.bak
+
+# Ignore all object files
+*.a
+*.o
+*.lx
+
+# Specific files generated during the build process (just from running make and seeing what changes)
+.configured.flg
+boot/.depend
+boot/brickOS.coff
+boot/brickOS.lds
+boot/brickOS.srec
+demo/.depend
+demo/c++/.depend
+lib/c++/promote-stamp
+lib/c/promote-stamp
+lib/float/promote-stamp
+lib/mint/promote-stamp
+util/dll
+util/firmdl/fastdl.h
+util/firmdl/mkimg
+util/firmdl3
+util/fixdeps
+util/fontdesign
+util/genlds
+util/makelx

@@ -38,6 +38,7 @@ pkghtmldir = $(pkgdocdir)/html
 pkglibdir = $(libdir)/${PACKAGE}
 
 
+#  TODO: Fix this configuration to not involve a path
 #
 #  BEGIN-configuration insert (do not remove this line)
 # -------------------------------------------------------
@@ -45,9 +46,9 @@ TOOLPREFIX=/usr/bin/h8300-hms-
 SED_SFLAG=
 EXT=
 CC=cc
-CFLAGS=-O2 -Wall
+CFLAGS=-O2 -Wall -std=gnu89
 MAKEDEPEND=$(CC) -M
-BRICKOS_ROOT=/home/david/Projects/brickos
+BRICKOS_ROOT=/home/boorstin/Programming/rcx/brickos/brickos
 # -------------------------------------------------------
 #  END-configuration insert  (do not remove this line)
 #

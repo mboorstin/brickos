@@ -116,7 +116,7 @@ case "$HMSFULL" in
 	   SED_SFLAG=""
 	   EXT=""
 	   CC=cc
-	   CFLAGS="-O2 -Wall"
+	   CFLAGS="-O2 -Wall -std=gnu89"
 	   CFLG_PE=""
 	   ;;
 esac
